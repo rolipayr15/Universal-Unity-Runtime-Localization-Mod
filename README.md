@@ -27,6 +27,7 @@ Originally developed to provide a Russian translation for the game *Family Time 
 3.**Create the Dictionary**
 
    Create a file named russian.txt (or any name you specify in the code) inside the game's [GameName]_Data folder. Add your translations line-by-line in the format Original=Translation.
+
 4.**Compile & Play**
 
    Save the modified .dll in dnSpy and launch the game.
