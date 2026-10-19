@@ -11,9 +11,11 @@ Originally developed to provide a Russian translation for the game *Family Time 
 ## Installation & Usage
 
 1. **Inject the Code**
+   
    Open the game's `Assembly-CSharp.dll` in dnSpy. Add the `LocalizationManager` class to the assembly.
 
-2. **Initialize the Manager**
+3. **Initialize the Manager**
+   
    Find a root initialization class in the game (for example, `GameSession` in *Family Time*, or `MainMenu` in other games) and add the initialization call inside its `Awake()` method:
    ```csharp
    private void Awake()
@@ -23,7 +25,9 @@ Originally developed to provide a Russian translation for the game *Family Time 
    }
 
 3.**Create the Dictionary**
+
     Create a file named russian.txt (or any name you specify in the code) inside the game's [GameName]_Data folder. Add your translations line-by-line in the format Original=Translation.
 
 4.**Compile & Play**
+
     Save the modified .dll in dnSpy and launch the game.
